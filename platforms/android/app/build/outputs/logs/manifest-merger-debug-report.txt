@@ -1,0 +1,160 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+MERGED from [com.stripe:stripe-android:4.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\stripe-android-4.1.2.aar\93015572ba7794aea87d8f0425c446d3\AndroidManifest.xml:2:1-11:12
+MERGED from [:CordovaLib] C:\Users\user\Documents\School\utrade\utrade\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:102-130
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:131-189
+	android:versionCode
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.ganguly.utrade.MainActivity
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+uses-sdk
+ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
+MERGED from [com.stripe:stripe-android:4.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\stripe-android-4.1.2.aar\93015572ba7794aea87d8f0425c446d3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.stripe:stripe-android:4.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\stripe-android-4.1.2.aar\93015572ba7794aea87d8f0425c446d3\AndroidManifest.xml:7:5-9:41
+MERGED from [:CordovaLib] C:\Users\user\Documents\School\utrade\utrade\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\user\Documents\School\utrade\utrade\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:13:42-71
+	android:minSdkVersion
+		ADDED from C:\Users\user\Documents\School\utrade\utrade\platforms\android\app\src\main\AndroidManifest.xml:13:15-41
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\46941f8a0449325adf7597b76eac8796\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\ef9ad3525a3fe61799bb449c904bef79\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\5d5c69afe69b129962b04ad621235b41\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\19c3a5f701ef0c51481eaa7bd8cd711c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\76efa4e84f04e195fb3963608c18425a\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\032250c765fdbe3083d436c64029a635\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\b70f331b475e18de81c3ea1da7a45136\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\2f3bf83508fa9d91bdc86f00cfdbbfb7\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\85575d11873a7ea70253ed48f7165a42\AndroidManifest.xml:26:9-47

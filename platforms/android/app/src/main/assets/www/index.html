@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAq58RJ6wnLcuwUizNQeQF42pCVVLQklwY&callback=initMap"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="themes/Bootstrap.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile.structure-1.4.0.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>StocksApp</title>
+</head>
+
+<body>
+    <!--Home page-->
+    <div data-role="page" id="home" class="ui-page" data-theme="a">
+        <header data-role="header">
+            <h1>uTrade Home</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home" data-icon="home" class="ui-btn-active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#assets" data-icon="eye">Assets</a>
+                    </li>
+                    <li>
+                        <a href="#wallet" data-icon="shop">Wallet</a>
+                    </li>
+                    <li>
+                        <a href="#getContact" data-icon="user">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-icon="gear">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="ui-content" role="main">
+            <!-- <div id="chartContainer" style="height: 370px; width: 100%;"></div> -->
+            <div role="main" class="ui-content">
+                <a href="" class="ui-btn ui-btn-a ui-corner-all">Welcome to uTrade!</a>
+                <a href="#assets" class="ui-btn ui-btn-a ui-corner-all">Manage my Assets</a>
+                <a href="#wallet" class="ui-btn ui-btn-a ui-corner-all">Digital Wallet</a>
+                <a href="#settings" class="ui-btn ui-btn-a ui-corner-all">Contact Us</a>
+                <a href="#settings" class="ui-btn ui-btn-a ui-corner-all">Edit Profile and Settings</a>
+                <p></p>
+            </div>
+            <!-- /content -->
+        </section>
+        <footer data-role="footer" data-position="fixed">© uTrade All rights received</footer>
+    </div>
+
+
+
+
+
+    <div id="login" data-role="page" data-theme="b">
+        <div data-role="content">
+            <h2>Login</h2>
+            <p align="right">
+                <a href="registration.html" id="showregistration">Don't have an account? &rarr;</a>
+            </p>
+            <form method="post" id="loginForm">
+                <label for="lusername">Email:</label>
+                <input class="required" type="text" name="lusername" id="lusername" placeholder="username@server.com">
+                <label for="lpassword">Password:</label>
+                <input class="required" type="lpassword" name="lpassword" id="lpassword" placeholder="password">
+                <input type="button" value="Login" id="submitButton" onClick="handleLogin()">
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Assets -->
+
+    <div data-role="page" id="assets" data-theme="a">
+        <header data-role="header">
+            <h1>uTrade Home</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home" data-icon="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#assets" data-icon="eye" class="ui-btn-active">Assets</a>
+                    </li>
+                    <li>
+                        <a href="#wallet" data-icon="shop">Wallet</a>
+                    </li>
+                    <li>
+                        <a href="#getContact" data-icon="user">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-icon="gear">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="ui-content" role="main">
+            <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+        </section>
+        <footer data-role="footer" data-position="fixed">© uTrade All rights received</footer>
+    </div>
+
+
+    <!--Wallet -->
+    <div data-role="page" id="wallet" data-theme="a">
+        <header data-role="header">
+            <h1>uTrade Digital wallet</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home" data-icon="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#assets" data-icon="eye">Assets</a>
+                    </li>
+                    <li>
+                        <a href="#wallet" data-icon="shop" class="ui-btn-active">Wallet</a>
+                    </li>
+                    <li>
+                        <a href="#getContact" data-icon="user">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-icon="gear">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="ui-content" role="main">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h2>Current Balance:</h2>
+                    <div data-role="wallet_balance">$0.00</div>
+                    <h2>Transaction History:</h2>
+                    <div data-role="transaction_history">No Transactions found</div>
+                </div>
+                <div class="ui-block-b">
+                    <h1>Increase your Digital Wallet</h1>
+                    <h2>Please select which uTrade package to purchase:</h2>
+
+                    <label for="sPay">uTrade Starter Pack ($19.99)</label>
+                    <form action="#wallet" method="POST" id="sPay">
+                        <script src='https://checkout.stripe.com/checkout.js' class='stripe-button' data-key='pk_test_9fmlqOOwyecZclaAEGyMwftP' data-amount=1999
+                            data-name="uTrade" data-description="Starter Pack" data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                            data-locale="auto" data-currency="cad">
+                            </script>
+                    </form>
+                    <label for="sPay">uTrade Novice Pack ($49.99+$4.99 BONUS)</label>
+                    <form action="#wallet" method="POST" id="sPay">
+                        <script src='https://checkout.stripe.com/checkout.js' class='stripe-button' data-key='pk_test_9fmlqOOwyecZclaAEGyMwftP' data-amount=4999
+                            data-name="uTrade" data-description="Novice Pack" data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                            data-locale="auto" data-currency="cad">
+                            </script>
+                    </form>
+                    <label for="sPay">uTrade Professional Pack ($99.99+$9.99 BONUS)</label>
+                    <form action="#wallet" method="POST" id="sPay">
+                        <script src='https://checkout.stripe.com/checkout.js' class='stripe-button' data-key='pk_test_9fmlqOOwyecZclaAEGyMwftP' data-amount=9999
+                            data-name="uTrade" data-description="Professional Pack" data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                            data-locale="auto" data-currency="cad">
+                            </script>
+                    </form>
+                </div>
+            </div>
+
+            <footer data-role="footer" data-position="fixed">© uTrade All rights received</footer>
+    </div>
+
+
+
+
+
+    <!-- Edit Profile / Register page -->
+    <div data-role="page" id="settings" data-theme="a">
+        <header data-role="header">
+            <h1>Edit User Profile</h1>
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="#home" data-icon="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#assets" data-icon="eye">Assets</a>
+                    </li>
+                    <li>
+                        <a href="#wallet" data-icon="shop">Wallet</a>
+                    </li>
+                    <li>
+                        <a href="#getContact" data-icon="user">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-icon="gear" class="ui-btn-active">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="ui-content" role="main">
+
+            <div data-role="main" class="ui-content">
+                <form method="post" name="profileForm" action="" data-ajax="false">
+                    
+                    <div data-role="fieldcontain">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" value="" />
+                    </div>
+
+                    <div data-role="fieldcontain">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="cpassword" id="cpassword" value="" />
+                    </div>
+
+                    <div data-role="fieldcontain">
+                        <label for="dob" data-icon="camera">Date of Birth</label>
+                        <input name="dob" id="dob" type="date" value="" />
+                    </div>
+
+                    <div data-role="fieldcontain">
+                        <label for="isSocial">Would you like to enable Social Features?</label>
+                        <select name="isSocial" id="isSocial" data-role="slider">
+                            <option value="off">No</option>
+                            <option value="on">Yes</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="imageInput">Upload a Profile Picture</label>
+                        <input type="file" accept="image/*;capture=camera">
+                    </div>
+
+
+                    <div data-role="fieldcontain">
+                        <label for="aboutMe">Public Profile Description:</label>
+                        <textarea cols="40" rows="8" name="aboutMe" id="aboutMe"></textarea>
+                    </div>
+                    <button type="button" data-theme="d" id="saveProfile">Save Profile</button>
+
+                </form>
+            </div>
+
+
+        </section>
+
+        <footer data-role="footer" data-position="fixed">© uTrade All rights received</footer>
+    </div>
+    <!--Contact us page-->
+    <div data-role="page" id="getContact" data-theme="a">
+        <header data-role="header">
+            <header data-role="header">
+                <h1>Contact uTrade</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#home" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#assets" data-icon="eye">Assets</a>
+                        </li>
+                        <li>
+                            <a href="#wallet" data-icon="shop">Wallet</a>
+                        </li>
+                        <li>
+                            <a href="#getContact" data-icon="user" class="ui-btn-active">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#settings" data-icon="gear">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+        </header>
+        <section class="ui-content" role="main">
+            <h1>Contact Us</h1>
+            <p>
+                please contact Customer Support:
+            </p>
+            <br />
+            <p>
+                U.S. - 877-235-2525 Monday-Friday 7:30 AM - 10:30 PM EST
+            </p>
+            <br />
+            <p>
+                International - 732-987-3669 Monday-Thursday 1:15 AM - 10:30 PM EST and Friday 7:30 AM - 10:30 PM EST
+            </p>
+            <h2>Visit Us</h2>
+            <p id="map_canvas" style="height:300px; width:300px;"></p>
+        </section>
+        <footer data-role="footer" data-position="fixed">© uTrade All rights received</footer>
+    </div>
+
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+</body>
+
+</html>
